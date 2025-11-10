@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#waffle {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  width: 700px;
+  height: 780px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stats {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  width: 250px;
+  height: 100px;
+  line-height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#imageButton {
+  background: transparent;
+  border: none;
+}
