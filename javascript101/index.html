@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript101</title>
-    <script src="script.js"></script>
+    <script src="/javascript101/script.js"></script>
+    <link rel="stylesheet" href="/javascript101/style.css">
 </head>
 <body>
-    <button onclick="click()">Klikk meg</button>
+    <button onclick="myFunction()">Klikk meg for en sitat!</button>
+
+    <div class="Player1">
+    <p id="count">0</p>
+    <button onclick="increaseCount()">+</button>
+    <button onclick="decreaseCount()">-</button>
+    <button onclick ="resetCount()">Reset</button>
+    </div>
+
+    <div class="Player2">
+    <p id="count2">0</p>
+    <button onclick="increaseCount2()">+</button>
+    <button onclick="decreaseCount2()">-</button>
+    <button onclick ="resetCount2()">Reset</button>
+    </div>
+
+    <button onclick="toggle()">Toggle dark mode</button>
+
+    <p><a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgifdb.com%2Fimages%2Fhigh%2Fyou-got-rick-astley-roll-meme-8r3kwmbe8xaped6u.gif&f=1&nofb=1&ipt=b4ebdfe319859e08e96ddc3b118088e987b35edeee61d81ac012a9bd0fa18331">Humør</a></p>
 </body>
 </html>
